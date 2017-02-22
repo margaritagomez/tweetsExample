@@ -1,0 +1,17 @@
+* {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.txt{
+  padding: 0.5em 1em;
+  text-align: justify;
+}
+
+.well {
+  float:left;
+  margin: 1em 1em;
+}
