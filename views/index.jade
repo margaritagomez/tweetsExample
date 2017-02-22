@@ -6,13 +6,13 @@ block content
       small #WebDev @Uniandes
   div.row
     each t in tweets
-      div.col-lg-3.well
+      div.col-lg-4.col-md-4.well
         div.row
-          div.col-lg-3.thumbnail
+          div.col-lg-3.col-md-3.thumbnail
             img(src=t.user.profile_image_url)
           div.col-lg-8
-            h3 #{t.user.name} <br />
+            h4 #{t.user.name} <br /> @
               small #{t.user.screen_name}
         div.row.txt
-              #{t.text}
+            p #{t.text}
             
